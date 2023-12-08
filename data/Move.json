@@ -1,0 +1,193 @@
+{
+  "moves": [
+    {
+      "name": "Tackle",
+      "type": "Normal",
+      "power": 40,
+      "acc": 1,
+      "pp": 35,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Bubble Beam",
+      "type": "Water",
+      "power": 65,
+      "acc": 1,
+      "pp": 20,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Hydro Pump",
+      "type": "Water",
+      "power": 110,
+      "acc": 0.8,
+      "pp": 5,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Waterfall",
+      "type": "Water",
+      "power": 80,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Razor Leaf",
+      "type": "Grass",
+      "power": 55,
+      "acc": 0.95,
+      "pp": 25,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Bullet Seed",
+      "type": "Grass",
+      "power": 25,
+      "acc": 1,
+      "pp": 30,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Headbutt",
+      "type": "Normal",
+      "power": 70,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Flamethrower",
+      "type": "Fire",
+      "power": 90,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Fire Blast",
+      "type": "Fire",
+      "power": 110,
+      "acc": 0.85,
+      "pp": 5,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Ember",
+      "type": "Fire",
+      "power": 40,
+      "acc": 1,
+      "pp": 25,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Quick Attack",
+      "type": "Normal",
+      "power": 40,
+      "acc": 1,
+      "pp": 30,
+      "speMod": 2,
+      "healMod": 0
+    },
+    {
+      "name": "Overheat",
+      "type": "Fire",
+      "power": 130,
+      "acc": 0.9,
+      "pp": 5,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Octazooka",
+      "type": "Water",
+      "power": 65,
+      "acc": 0.85,
+      "pp": 10,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Surf",
+      "type": "Water",
+      "power": 90,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Strength",
+      "type": "Normal",
+      "power": 80,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Recover",
+      "type": "Normal",
+      "power": 0,
+      "acc": 1,
+      "pp": 10,
+      "speMod": 1,
+      "healMod": 0.2
+    },
+    {
+      "name": "Headbutt",
+      "type": "Normal",
+      "power": 70,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Scald",
+      "type": "Water",
+      "power": 80,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Flare Blitz",
+      "type": "Fire",
+      "power": 120,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Giga Drain",
+      "type": "Grass",
+      "power": 75,
+      "acc": 1,
+      "pp": 10,
+      "speMod": 1,
+      "healMod": 0
+    },
+    {
+      "name": "Seed Bomb",
+      "type": "Grass",
+      "power": 80,
+      "acc": 1,
+      "pp": 15,
+      "speMod": 1,
+      "healMod": 0
+    }
+  ]
+}

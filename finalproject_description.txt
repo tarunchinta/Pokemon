@@ -1,0 +1,58 @@
+﻿finalproject_description.txt
+
+
+Our final project, titled Tower of Terror, is a Pokemon game where you can select your team of 3 Pokemon and battle opponents in an arena! This intricate project has multiple functionalities that will be detailed in this description. 
+
+
+BASIC REQUIREMENTS
+1. Keyboard interactivity: The initial stage includes movement controlled by arrow keys. There are also multiple key-pressed functionalities. For example, you interact with the attendant through key presses. You can also mute the sound of the game by pressing "m."
+2. Multiple GUI systems: The project has three main GUI screens: the initial stage, where you can talk to an attendant to begin gameplay; the selection stage, where you choose your three Pokemon; and the battle stage, where you battle your opponents. Each GUI system has a different background and layout to replicate a visually appealing and interactive Pokemon game!
+3. Class objects with animation hierarchies: The animation criteria are met during the battle stage. When you select a move to use on your opponent, there is an attack beam animation to indicate that you have played your turn. The main animation is an AttackBeam class that draws a circle moving across the screen to your opponent, and there is also a subclass called AttackBeamParticle that draws particles around the main circle and the particles rotate around the circle while also moving along with it to the opponent. 
+4. Data input/output: Our project heavily relies on data from a Pokemon JSON file that we created. This file has the names of all the Pokemon available, along with their types, moves, and stats for gameplay. We refer to this file throughout the project and use the information accurately to depict the true strengths and weaknesses of a Pokemon battle. We also maintain a score, which counts for our data output. We write to a separate file that stores your score and can be visible during the initial stage when talking to the opponent; the data will be saved so your high score is saved. 
+5. Sound: The project has sound throughout all the stages, which can be toggled by the user by pressing "m." You must have the sound library downloaded in order for this feature to work. 
+FUNCTIONALITY OVERVIEW: 
+* Player movement in the initial stage
+* Key-pressed directed dialogue for storyline narrative 
+* Multiple mouse-clicked functions to select/deselect Pokemon, or select your move
+* Multiple hover functionalities are available to see Pokemon types and stats, as well as descriptions for moves. 
+* Sound functionality 
+* Battle logic functionality: the HP tracking bar will decrease depending on the power of the move, not arbitrarily. 
+* Animation with attack beams for each move the player selects, with the attack beams being different colors depending on the type of move. 
+* Text prompts throughout the game to help the user track the game and the Pokemon functionalities. 
+* High score functionality, where your best score is saved and can be accessed at the beginning of the game. 
+* Overall smooth transitions between stages and visually appealing and interactive gameplay! 
+
+
+CLASSES
+This section will go over the classes created to create this game, and will also detail which team member worked on which classes. 
+* (ASHNA) InitialStage
+   * This class is what opens the first GUI screen where you can see your player, move around, and talk to the attendant. The class itself loads the background image and draws the obstacles, which is the counter that they player cannot move over or cross
+* (MEDHA) Attendant: 
+   * This class covers the attendant logic. It reads the player’s location and only displays text prompts when the player is directly under the attendant. It places the attendant directly above the counter and implements they key pressed functionalities to initiate dialogue. If you press ‘y’ your game will begin and the stage changes, whereas if you press ‘n’ followed by ‘1’, you can see you score.
+* (TARUN & MEDHA) AttackBeam:
+   * This class controls the main attack beam animation that is displayed when a Pokemon uses a move. It takes in position coordinates and color depending on the move type to draw circle that moves from the player to the opponent: the speed and angle are fixed. It also has a function to draw the individual particles that surround the main beam and update the particles’ position to rotate around the main beam
+* (TARUN & MEDHA) AttackBeamParticle:
+   * This class takes in the angle, radius, size, and color of the mini particles. It draws them, implements the rotation logic, and adjusts the angle of rotation and the distance from the main beam.
+* (ASHNA & KATE) BattleStage:
+   * This class covers battle graphics, game logic, and scoring.
+   * Battle Graphics:
+      * A background screen is shown for the battle arena, and Pokemon sprites are loaded from the images folder.
+      * This class also has a GUI system for selecting moves to attack the opponent and text boxes that display stats and moves played.
+      * The animations for attack beams are called in this class when a player makes a move against the opponent.
+   * Game Logic: 
+      * The selected Pokemon are passed in through the selection stage, and the opponent is given three random Pokemon.
+      * The player and opponent stats, as well as the move stats and types, are then used to calculate the damage done, which reduces the player/opponent HP (or increases it if the move is ‘recover’). 
+      * If a player or opponent Pokemon faints, their next Pokemon is subbed in until all three have fainted. If the opponent faints, a new opponent with three new Pokemon comes in and the player fights until they eventually die.
+      * If the player loses, it is shown a screen that tells them they lost and is then moved back to the initial stage. Their high score (number of trainer opponents they defeated) is written to a file.
+* (TARUN) Player
+   * This class loads the player's sprite and controls the player's logic. It implements collision detection as well to ensure that the player cannot cross the counter in the initial stage or walk over it. It also has key-pressed functionality to make the arrow keys control player movement. 
+* (TARUN & KATE) Selection Stage: 
+   * The class covers the selection stage, where the player chooses the Pokemon for their team
+   * On the left side, there is a grid of Pokemon sprites
+   * There is a handleMouseClick() that detects which Pokemon sprite the player clicks on and adds it to the team. This is done by adding the Pokemon’s index relative to the Pokemon JSON data to an array
+   * displayPokemonDetails() creates a larger rectangle that displays detailed information about a pokemon if the mouse hovers over the smaller sprite. 
+   * There’s a button that if clicked moves the game to the next stage if three pokemon have been added to the team.
+   * The team is displayed at the bottom.
+UNEXPECTED CHALLENGES
+* The timing of events was pretty difficult to implement, but we figured it out using the Millis() function
+* We wanted to have a lot more Pokemon options and functionality in the entire game, but we ran out of time since there were a lot of moving parts to keep track of during implementation. However, we were able to still create a fun game that met all project requirements :)

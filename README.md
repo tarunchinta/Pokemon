@@ -13,7 +13,7 @@ Welcome to the Tower of Terror! This is a Pokemon game where you can select your
 INITIAL STAGE:
 * Your screen will open on an initial stage with your player character. Use the arrow keys to control the player’s movement. To begin the game, move toward the attendant to prompt dialogue. 
 * Follow the key press instructions to navigate gameplay: you can either begin the game or see your score. If you choose neither, you can move around the room and return to the attendant to restart the dialogue. 
-![alt text]([http://Gameplay/Attendant.png](https://github.com/tarunchinta/Pokemon/blob/main/Gameplay/InitialStage.png))
+![image](https://github.com/tarunchinta/Pokemon/assets/89858998/f023a352-c5f3-49af-9296-7490ed3f8cb9)
 
 SELECTION STAGE: 
 * This is the beginning of the game, where you are presented with an option of different Pokemon to select your team. Hover over the options to see the stats and display of each Pokemon. Each Pokemon has a different type: Fire, Water, Grass or Normal. Strategize your best team with your choice of Pokemon types to make sure you can beat your opponent! Be careful, because after you pick your team, you cannot change it.

@@ -4,7 +4,7 @@
 Welcome to the Tower of Terror! This is a Pokemon game where you can select your team of three Pokemon and battle CPU opponents! Here’s how to play: 
 
 
-1. Make sure you have Processing 4 or above. This game does not work on Processing 3
+1. Make sure you have Processing 4 or above.
 2. Open the TowerofTerror.pde file 
 3. Press the Play button in the top left corner to begin the game
 4. To mute and unmute the sound of the game, press “m.” NOTE: You must have the sound library downloaded in order for this feature to work. 

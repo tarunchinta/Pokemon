@@ -15,10 +15,13 @@ INITIAL STAGE:
 * Follow the key press instructions to navigate gameplay: you can either begin the game or see your score. If you choose neither, you can move around the room and return to the attendant to restart the dialogue. 
 ![image](https://github.com/tarunchinta/Pokemon/assets/89858998/f023a352-c5f3-49af-9296-7490ed3f8cb9)
 
+![image](https://github.com/tarunchinta/Pokemon/assets/89858998/6115546f-7667-4c4a-89d5-16d855645b0a)
+
 SELECTION STAGE: 
 * This is the beginning of the game, where you are presented with an option of different Pokemon to select your team. Hover over the options to see the stats and display of each Pokemon. Each Pokemon has a different type: Fire, Water, Grass or Normal. Strategize your best team with your choice of Pokemon types to make sure you can beat your opponent! Be careful, because after you pick your team, you cannot change it.
 * To choose a Pokemon, click on the image of the Pokemon from the option list. This will insert your Pokemon into your final team list depicted at the bottom of the screen. To deselect, just click on the image again and it will undo your selection. 
 * When you are satisfied with your team, click the Confirm Team button to move onto the battle stage of the game! You cannot move to the battle stage unless you have 3 pokemon in your team.
+![image](https://github.com/tarunchinta/Pokemon/assets/89858998/9c491ade-54f9-44f1-842f-f40216da9100)
 
 
 BATTLE STAGE: 
@@ -28,3 +31,8 @@ BATTLE STAGE:
 * After the opponent plays, your move option list will return, and you can play another turn. If your first Pokemon dies, the next Pokemon in your team will enter and you can play until all your Pokemon die; hopefully, you win! If your opponent’s pokemon dies, they will also play their next pokemon.
 * If all 3 pokemon in your team faint, your highscore (how many opponents you have defeated) will be saved. If you defeat all 3 of your opponents pokemon, you will automatically start a new battle with a new opponent. You will continuously battle opponents until you lose.
 * Once you are defeated, you will be returned to the lobby, and may see your highscore by talking to the attendant, or you may play a new game. Enjoy!
+![image](https://github.com/tarunchinta/Pokemon/assets/89858998/08d8e3bc-a486-48cd-ad11-2ca8505eb731)
+
+![image](https://github.com/tarunchinta/Pokemon/assets/89858998/cc31de94-f6c9-4b92-8c9c-1c521c3c044d)
+
+
